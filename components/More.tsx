@@ -1,8 +1,8 @@
 import Image from "next/image"
 import React from "react"
-import person1 from "../public/how1.png"
-import person2 from "../public/how2.png"
-import person3 from "../public/how3.png"
+import how1 from "../public/how1.png"
+import how2 from "../public/how2.png"
+import how3 from "../public/how3.png"
 
 const More = () => {
   return (
@@ -17,7 +17,7 @@ const More = () => {
         <div className="flex flex-col gap-16 lg:md-8 items-center justify-center lg:grid lg:grid-cols-3">
           <div className="flex flex-col items-center justify-center text-center">
             <div className="rouded-full w-[180px] h-[180px]">
-              <Image src={person1} alt="person1" />
+              <Image src={how1} alt="person1" />
             </div>
             <h5 className="text-xl font-semibold text-gray-800">
               1. Mengisi borang Google Form
@@ -26,7 +26,7 @@ const More = () => {
 
           <div className="flex flex-col items-center justify-center text-center">
             <div className="rouded-full w-[180px] h-[180px]">
-              <Image src={person2} alt="person2" />
+              <Image src={how2} alt="person2" />
             </div>
             <h5 className="text-xl font-semibold text-gray-800">
               2. Pengesahan melalui WhatsApp
@@ -35,7 +35,7 @@ const More = () => {
 
           <div className="flex flex-col items-center justify-center text-center">
             <div className="rouded-full w-[180px] h-[180px]">
-              <Image src={person3} alt="person3" />
+              <Image src={how3} alt="person3" />
             </div>
             <h5 className="text-xl font-semibold text-gray-800">
               3. Mulakan Sesi

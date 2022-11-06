@@ -6,7 +6,7 @@ import heroImg from "../public/heroImage.png"
 const Hero = () => {
   return (
     <div className="bg-yellow-50/60 pb-24 md:pb-32 pt-36 px-2 md:px-16">
-      <div className="max-w-[1440px] mx-auto lg:grid lg:grid-cols-2 gap-4 flex flex-col pt-8 ">
+      <div className="max-w-[1440px] mx-auto lg:grid lg:grid-cols-2 gap-4 flex flex-col pt-8">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-gray-800">
             Kaunseling Untuk Semua

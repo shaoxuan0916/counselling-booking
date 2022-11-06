@@ -1,6 +1,7 @@
 import Head from "next/head"
 import About from "../components/About"
 import Book from "../components/Book"
+import Counsellor from "../components/Counsellor"
 import Hero from "../components/Hero"
 import More from "../components/More"
 import Navbar from "../components/Navbar"
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <More />
         <Book />
+        <Counsellor />
       </div>
     </div>
   )
