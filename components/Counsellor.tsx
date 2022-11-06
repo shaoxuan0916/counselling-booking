@@ -10,7 +10,7 @@ const Counsellor = () => {
       <div className="max-w-[1440px] mx-auto pt-8">
         <div className="flex justify-center mb-16">
           <h3 className="text-3xl md:text-4xl lg:text-4xl text-center font-semibold text-gray-800">
-            Counsellor
+            Kaunselor
           </h3>
         </div>
 
